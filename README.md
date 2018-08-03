@@ -1,2 +1,5 @@
-# code-repository
-small code with python or anyother language code in here.
+# HELLO！这里是个人的一些零散代码的整理。
+这些代码可能会是python语言写的，也可能会是其他语言。
+这些代码可能没有相关联性，可能是算法实现，可能某个新知识新框架的简单实践。
+但肯定是一些自己花了心思值得记录的东西。
+

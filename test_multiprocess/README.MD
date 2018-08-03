@@ -8,4 +8,5 @@
 ```
 Fatal Python error: could not acquire lock for <_io.BufferedWriter name='<stdout>'> at interpreter shutdown, possibly due to daemon threads
 ```
-原因的分析参见代码注释底部。
+原因的分析参见代码注释底部。[stack overflow相关问题](https://stackoverflow.com/questions/45267439/fatal-python-error-and-bufferedwriter/45389681#45389681)
+

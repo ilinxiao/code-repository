@@ -12,7 +12,6 @@ if __name__ == '__main__':
     ls = LoginSite(login_url, user_name, password, browser='chrome')
     name_locator = ('xpath', '//*[@id="username"]')
     password_locator = ('xpath', '//*[@id="password"]')
-    # submit_button_locator = (By.LINK_TEXT, '登录')
     submit_button_locator = ('class name', 'input-button')
     auto_login_locator = ('class name', 'input-checkbox')
     title = '我的图书馆'

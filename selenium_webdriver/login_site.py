@@ -53,7 +53,7 @@ class LoginSite():
         WebDriverWait(self.driver, 20).until(expected_conditions.title_contains(title))
         
         cookies = self.driver.get_cookies()
-        print(cookies)
+        # print(cookies)
         
         
         

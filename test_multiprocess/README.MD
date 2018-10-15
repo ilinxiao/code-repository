@@ -10,3 +10,9 @@ Fatal Python error: could not acquire lock for <_io.BufferedWriter name='<stdout
 ```
 原因的分析参见代码注释底部。[stack overflow相关问题](https://stackoverflow.com/questions/45267439/fatal-python-error-and-bufferedwriter/45389681#45389681)
 另外一个跟[python多线程的相关讨论](https://segmentfault.com/q/1010000012483275)也比较有意思。其中一个回答中说道，多线程多进程程序还是需要控制好逻辑和调度很重要。十分赞同，在此记录下以后或许能用到。
+
+#  生产者消费者Python实现
+producer_consumer.py：生产者消费问题的原型
+condition_producer_consumer.py：使用Threading.Condition实现问题
+queue_producer_consumer.py：queue实现，实际是对Condition的封装
+参考：http://blog.jobbole.com/52412/
